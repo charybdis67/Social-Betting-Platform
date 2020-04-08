@@ -1,6 +1,7 @@
 # Social-Betting-Platform
 Database Course Project
-GROUP MEMBERS
+
+# GROUP MEMBERS
 ASUMAN AYDIN 
 ECE ÇANGA
 ORKAN ÖZTRAK
