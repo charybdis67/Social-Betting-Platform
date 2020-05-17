@@ -8,6 +8,11 @@
   </head>
   <body>
       <header>
+        <div class="wrapper">
+          <u1 class="nav-area">
+            <li><a href="main.php">Home Page</a><li>
+            </u1>
+          </div>
         <div class="welcome-text">
           <h1> welcome back user!</h1>
           <div class="container">
@@ -26,7 +31,7 @@
               <button type="submit" class="btn btn-primary"> Login </button>
               <br>
               </<br>
-              <a href="#" class="to_register">Don't have account yet? Join us</a>
+              <a href="user_signup.php" class="to_register">Don't have account yet? Join us</a>
                 </form>
               </div>
             </div>

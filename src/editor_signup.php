@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to the MaxBet</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   </head>
   <body>
@@ -14,12 +14,24 @@
             </u1>
           </div>
         <div class="welcome-text">
-          <h1> welcome back Dear Admin!</h1>
+          <h1> welcome back Editor!</h1>
           <div class="container">
             <div class="login-box">
             <div class="row">
               <div class="col-md-6 login-mid">
                 <form action="validation.php" method="post">
+                  <div class="form-group">
+                  <label> Name </label>
+                 <input type="text" name="name" class="form-control" required>
+               </div>
+               <div class="form-group">
+               <label> Surname </label>
+              <input type="text" name="surname" class="form-control" required>
+            </div>
+            <div class="form-group">
+            <label> Mail </label>
+           <input type="text" name="mail" class="form-control" required>
+         </div>
                   <div class="form-group">
                   <label> Username </label>
                  <input type="text" name="username" class="form-control" required>
@@ -28,9 +40,22 @@
                <label> Password </label>
               <input type="password" name="password" class="form-control" required>
               </div>
+              <div class="form-group">
+              <label> phone number </label>
+             <input type="tel" id="phone" name="username" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="form-control" required>
+           </div>
+           <div class="form-group">
+             <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="form-group">
+        <label> Password </label>
+       <input type="password" name="password" class="form-control" required>
+       </div>
               <button type="submit" class="btn btn-primary"> Login </button>
-              <a href="#" class="to_register">Don't have account yet? Join us</a>
-
+              <br>
+              </<br>
+              <a href="editor_login.php" class="to_register"> Have account? Login</a>
                 </form>
               </div>
             </div>

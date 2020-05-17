@@ -7,6 +7,11 @@
   </head>
   <body>
       <header>
+        <div class="wrapper">
+          <u1 class="nav-area">
+            <li><a href="main.php">Home Page</a><li>
+            </u1>
+          </div>
           <div class="wrapper">
             <div class="logo">
               <img src="image/" alt="">
@@ -16,12 +21,12 @@
         </div>
         <div class="welcome-text">
           <h1> Maximum Gaining For Maximum Betters!</h1>
-          <a href="#"> Begin Betting! </a>
-          <a href="#"> Begin Editoring! </a>
-          <a href="#"> You wanna be Admin! </a>
-          <a href="#"> Already have account Better? </a>
-          <a href="#"> Already have account Editor? </a>
-          <a href="#"> Already have account Admin? </a>
+          <a href="user_signup.php"> Begin Betting! </a>
+          <a href="editor_signup.php"> Begin Editoring! </a>
+          <a href="admin_signup.php"> You wanna be Admin! </a>
+          <a href="user_login.php"> Already have account Better? </a>
+          <a href="editor_login.php"> Already have account Editor? </a>
+          <a href="admin_login.php"> Already have account Admin? </a>
       </header>
   </body>
 </html>

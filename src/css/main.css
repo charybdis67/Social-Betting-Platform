@@ -8,7 +8,7 @@
 }
 header{
   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 0, 0, 0.6)),url("main.jpg");
-  height: 100vh;
+  height: 200vh;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;

@@ -8,11 +8,12 @@
 }
 header{
   background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 0, 0, 0.6)),url("login2.jpg");
-  height: 100vh;
+  height: 200vh;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   position: relative;
+  object-fit: cover;
 }
 a:link, a:visited {
   color: black;
@@ -25,30 +26,33 @@ a:link, a:visited {
 {
   position: absolute;
   width: 600px;
-  height: 300px;
+  height: 10px;
   margin: 5% 25%;
-  text-align: center;
+  text-align: left;
 }
 .login-mid{
   background: rgba(211,211,211,0.5);
-  padding: 50px;
+  padding: 10px;
 }
 .form-control
 {
   background-color: transparent !important;
+  
 }
 .nav-area{
-  background-color: #333;
-  overflow: hidden;
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
 }
 .nav-area li a{
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  color: #fff;
   text-decoration: none;
-  font-size: 17px;
-
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 16px;
 }
 .nav-area li a:hover{
   background: #fff;
