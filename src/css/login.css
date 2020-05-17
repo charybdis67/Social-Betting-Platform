@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  width: 1170px;
+  margin:auto;
+}
+header{
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 0, 0, 0.6)),url("login2.jpg");
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+a:link, a:visited {
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.login-box
+{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 5% 25%;
+  text-align: center;
+}
+.login-mid{
+  background: rgba(211,211,211,0.5);
+  padding: 50px;
+}
+.form-control
+{
+  background-color: transparent !important;
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 16px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+.welcome-text{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 5% 30%;
+  text-align: center;
+}
+.welcome-text h1{
+  text-align: center;
+  color: #FFF8DC;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+/* .welcome-text a{
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display:  block;;
+  color:  #fff;
+}
+.welcome-text a:hover{
+  background:  #fff;
+  color: #000;
+} */
