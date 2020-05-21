@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Calibri';
+  }
+  wrapper{
+    width: 1170px;
+    margin:auto;
+  }
+  header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 0, 0, 0.6)),url("main.jpg");
+    height: 200vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  
+  .sport_selection{
+    left: 200px;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+  }
+  .matches{
+    background-color: white;
+    overflow: auto;
+    top: 130px;
+    left: 50px;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    margin: 5% 30%;
+    text-align: center;
+  }
+  .matchlabel{
+    text-align: center;
+    top:250px;
+    left: 200px;
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 20%;
+  }
+  table#matchTable, table#matchTable tr, table#matchTable th{
+    padding-right: 60px;
+    padding-left: 60px;
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .livelabel{
+    text-align: center;
+    position: absolute;
+    top:320px;
+    left: 200px;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 20%;
+  }
+  .live_matches{
+    background-color: white;
+    overflow: auto;
+    position: absolute;
+    top:330px;
+    right:550px;
+    width: 300px;
+    height: 200px;
+    margin: 5% 30%;
+    text-align: center;
+  }
+  .filter{
+    position: absolute;
+    top: 650px;
+    left: 1100px;
+    width: 200px;
+  }
