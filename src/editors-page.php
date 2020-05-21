@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Editor Profile</title>
-    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/editor-profile.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
