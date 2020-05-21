@@ -68,7 +68,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
            $birthday = trim($_POST['date_of_birth']);
            $phone = trim($_POST['phone_number']);
 
-           $sql = "INSERT INTO editor(username, password, name, surname, date_of_birth, user_birthdate, phone_number) VALUES ('$username', '$password', '$username', '$email', '$password', '$birthday', '$phone')";
+           $sql = "INSERT INTO editor(username, password,mail, name, surname, date_of_birth, phone_number) VALUES ('$username', '$password', $email', '$name', '$surname' '$birthday', '$phone')";
            $query = mysqli_query($db, $sql);
            header("location: editor_login.php");
        }

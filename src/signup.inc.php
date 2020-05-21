@@ -68,7 +68,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
            $birthday = trim($_POST['date_of_birth']);
            $phone = trim($_POST['phone_number']);
 
-           $sql = "INSERT INTO user(username, password, name, surname, date_of_birth, user_birthdate, phone_number) VALUES ('$username', '$password', '$username', '$email', '$password', '$birthday', '$phone')";
+           $sql = "INSERT INTO user(username, password, name, surname, email, date_of_birth, phone_number) VALUES ('$username', '$password', '$name', '$surname','$email', '$birthday', '$phone')";
            $query = mysqli_query($db, $sql);
            header("location: user_login.php");
        }

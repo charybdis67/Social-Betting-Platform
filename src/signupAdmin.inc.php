@@ -68,7 +68,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
            $birthday = trim($_POST['date_of_birth']);
            $phone = trim($_POST['phone_number']);
 
-           $sql = "INSERT INTO admin(username, password, name, surname, date_of_birth, user_birthdate, phone_number) VALUES ('$username', '$password', '$username', '$email', '$password', '$birthday', '$phone')";
+           $sql = "INSERT INTO admin(username, password, email, date_of_birth, phone_number, name,surname) VALUES ('$username', '$password', '$email', '$birthday', '$phone', '$name', '$surname')";
            $query = mysqli_query($db, $sql);
            header("location: admin_login.php");
        }
