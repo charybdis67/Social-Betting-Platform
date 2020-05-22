@@ -6,7 +6,7 @@ $sql_db_name = "u8715820_bet2";
 $vtbaglan = mysqli_connect($sql_db_host, $sql_db_user, $sql_db_pass, $sql_db_name);
 $vtbaglan->set_charset("utf8mb4");
 
-$site_url = "https://tetawood.com/bet";
-$site_name = "tetawood.com/bet";
+$site_url = "";
+$site_name = "";
 $site_title = "BET";
 ?>
